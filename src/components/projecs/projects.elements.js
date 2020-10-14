@@ -3,7 +3,7 @@ import image from "./bg.jpg";
 
 export const ProjectsSection = styled.section`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   row-gap: 1rem;
   column-gap: 1rem;
   padding: 1rem;
@@ -11,6 +11,8 @@ export const ProjectsSection = styled.section`
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  justify-items: center;
+  padding: 0 5rem;
 `;
 
 export const ProjectsTitle = styled.h2`
