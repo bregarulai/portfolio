@@ -10,21 +10,16 @@ import {
 const Banner = () => {
   return (
     <BackgroundImage>
-      <Heading
-        data-aos="zoom-in"
-        data-aos-mirror="true"
-        data-aos-easing="ease-in-out"
-      >
-        Hi, I am Flavio
-      </Heading>
-      <SubHeading
-        data-aos="zoom-out"
-        data-aos-mirror="true"
-        data-aos-easing="ease-in-out"
-      >
+      <div data-aos="slide-right">
+        <Heading data-aos="zoom-in">Hi, I am Flavio</Heading>
+      </div>
+      <SubHeading data-aos="zoom-out">
         frontend developer living in Tampa, FL.
       </SubHeading>
-      <ProjectButton to="projects"> see my projects </ProjectButton>
+      <ProjectButton data-aos="slide-up" to="projects">
+        {" "}
+        see my projects{" "}
+      </ProjectButton>
     </BackgroundImage>
   );
 };

@@ -3,7 +3,7 @@ import styled from "styled-components/macro";
 export const ProjectSection = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 2rem 1rem;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
   background: white;
@@ -15,6 +15,7 @@ export const ProjectHeading = styled.h3`
   text-transform: capitalize;
   padding-bottom: 1rem;
   color: #757575;
+  align-self: center;
 `;
 
 export const ProjectImage = styled.img`
@@ -24,7 +25,7 @@ export const ProjectImage = styled.img`
 `;
 
 export const ProjectText = styled.p`
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 0 1rem 0;
 `;
 
 export const ProjectLinks = styled.div`
@@ -38,5 +39,19 @@ export const ProjectLink = styled.a`
   border: none;
   padding: 0.5rem 2rem;
   text-decoration: none;
-  margin-left: 1rem;
+  margin-right: 1rem;
+`;
+
+export const Technology = styled.span`
+  background: #1de9b6;
+  color: #424242;
+  padding: 0.25rem 0.5rem;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+`;
+
+export const Stack = styled.div`
+  display: flex;
+  margin-bottom: 1rem;
 `;
