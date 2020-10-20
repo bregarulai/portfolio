@@ -5,13 +5,16 @@ import {
   Heading,
   SubHeading,
   ProjectButton,
+  Name,
 } from "./banner.elements";
 
 const Banner = () => {
   return (
     <BackgroundImage>
       <div data-aos="slide-right">
-        <Heading data-aos="zoom-in">Hi, I am Flavio</Heading>
+        <Heading data-aos="zoom-in">
+          Hi, I'm <Name>Flavio Aquino</Name>
+        </Heading>
       </div>
       <SubHeading data-aos="zoom-out">
         frontend developer living in Tampa, FL.

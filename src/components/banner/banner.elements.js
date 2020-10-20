@@ -22,6 +22,10 @@ export const Heading = styled.h1 `
   text-transform: capitalize;
 `;
 
+export const Name = styled.span `
+  color: #1de9b6;
+`
+
 export const SubHeading = styled.h2 `
   font-size: 2rem;
   color: #757575;
@@ -31,9 +35,9 @@ export const SubHeading = styled.h2 `
 export const ProjectButton = styled(ScrollLink)
 `
   text-decoration: none;
-  color: white;
+  color: #1de9b6;
   background: transparent;
-  border: 1px solid white;
+  border: 1px solid #1de9b6;
   padding: 1rem 2rem;
   font-size: 1.2rem;
   text-transform: capitalize;
@@ -43,7 +47,8 @@ export const ProjectButton = styled(ScrollLink)
 
   &:hover {
     transition: all 0.5s ease-in-out;
-    background: #757575;
+    background: #1de9b6;
     border: none;
+    color: white
   }
 `;
