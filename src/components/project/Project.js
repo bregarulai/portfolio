@@ -21,8 +21,8 @@ const Project = ({ heading, image, alt, description, stack }) => {
       <ProjectImage src={image} alt={alt} />
       <ProjectText>{description}</ProjectText>
       <Stack>
-        {stack.map((tech) => {
-          return <Technology>{tech}</Technology>;
+        {stack.map((tech, index) => {
+          return <Technology key={index}>{tech}</Technology>;
         })}
       </Stack>
       <ProjectLinks>

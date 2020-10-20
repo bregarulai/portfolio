@@ -6,13 +6,12 @@ export const ProjectsSection = styled.section`
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   row-gap: 1rem;
   column-gap: 1rem;
-  padding: 1rem;
   background-image: url(${image});
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   justify-items: center;
-  padding: 0 5rem;
+  padding: 2rem 5rem 5rem 5rem;
 `;
 
 export const ProjectsTitle = styled.h2`
