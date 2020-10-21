@@ -41,6 +41,7 @@ export const ProjectButton = styled(ScrollLink)
   padding: 1rem 2rem;
   font-size: 1.2rem;
   text-transform: capitalize;
+  border-radius: 5px;
   margin-top: 1.5rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;

@@ -6,7 +6,7 @@ export const AboutSection = styled.section `
   justify-content: center;
   align-items: center;
   background: white;
-  padding: 4rem 0;
+  padding: 5rem 0;
 `;
 
 export const Heading = styled.h2 `
@@ -17,5 +17,6 @@ export const Heading = styled.h2 `
 
 export const Description = styled.p `
   font-size: 1.2rem;
-  width: 70%;
+  width: 40%;
+  margin-top: 1rem;
 `;

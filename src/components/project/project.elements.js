@@ -4,9 +4,10 @@ export const ProjectSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 2rem 1rem;
+  padding: 3rem;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
   background: white;
+  border-radius: 6px;
 `;
 
 export const ProjectHeading = styled.h3`
@@ -26,6 +27,7 @@ export const ProjectImage = styled.img`
 
 export const ProjectText = styled.p`
   padding: 0 0 1rem 0;
+  font-size: 1.2rem;
 `;
 
 export const ProjectLinks = styled.div`
@@ -40,6 +42,7 @@ export const ProjectLink = styled.a`
   padding: 0.5rem 2rem;
   text-decoration: none;
   margin-right: 1rem;
+  border-radius: 5px;
 
   &:hover {
     transition: opacity 0.25s ease-in-out;

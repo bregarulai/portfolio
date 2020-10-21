@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SkillsSection = styled.section`
-  padding: 4rem 5rem;
+  padding: 5rem 5rem;
 `;
 
 export const SkillsHeading = styled.h2`
@@ -24,8 +24,9 @@ export const Skill = styled.div`
   display: flex;
   flex-direction: column;
   box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
-  padding-bottom: 1rem;
+  padding: 0.75rem 0 2rem 0;
   border-left: 3px solid #1de9b6;
+  border-radius: 5px;
 
   &:hover {
     transition: transform 0.25s ease-in-out;

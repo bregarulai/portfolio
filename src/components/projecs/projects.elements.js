@@ -11,7 +11,7 @@ export const ProjectsSection = styled.section`
   background-size: cover;
   background-position: center center;
   justify-items: center;
-  padding: 2rem 5rem 5rem 5rem;
+  padding: 5rem 5rem 8rem 5rem;
 `;
 
 export const ProjectsTitle = styled.h2`
