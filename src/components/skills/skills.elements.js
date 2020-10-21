@@ -26,6 +26,11 @@ export const Skill = styled.div`
   box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
   padding-bottom: 1rem;
   border-left: 3px solid #1de9b6;
+
+  &:hover {
+    transition: transform 0.25s ease-in-out;
+    transform: translateY(-10px);
+  }
 `;
 
 export const SkillIcon = styled.div`

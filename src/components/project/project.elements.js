@@ -40,6 +40,11 @@ export const ProjectLink = styled.a`
   padding: 0.5rem 2rem;
   text-decoration: none;
   margin-right: 1rem;
+
+  &:hover {
+    transition: opacity 0.25s ease-in-out;
+    opacity: 0.9;
+  }
 `;
 
 export const Technology = styled.span`
@@ -49,6 +54,11 @@ export const Technology = styled.span`
   text-transform: uppercase;
   margin-right: 0.5rem;
   border-radius: 4px;
+
+  &:hover {
+    transition: transform 0.25s ease-in-out;
+    transform: translateY(-3px);
+  }
 `;
 
 export const Stack = styled.div`
