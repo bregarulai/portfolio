@@ -62,4 +62,5 @@ export const SubmitBtn = styled.button`
   text-transform: capitalize;
   font-size: 1.2rem;
   border-radius: 5px;
+  margin-top: 0.5rem;
 `;
