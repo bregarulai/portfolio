@@ -25,6 +25,7 @@ const Navigation = () => {
                 offset={-50}
                 duration={500}
           >projects</Link>
+         
           <Link to="about"
                 spy={true}
                 activeClass="active"
@@ -32,13 +33,12 @@ const Navigation = () => {
                 offset={-50}
                 duration={500}
           >about</Link>
-          <Link to="contact"
-                spy={true}
+            <Link to="contact"
                 activeClass="active"
-                smooth={true}
+                spy={true}
                 offset={-50}
-                duration={500}
-          >contact</Link>
+                smooth={true}
+                duration={500}>contact</Link>
         </Links>
       </Header>
     </Nav>

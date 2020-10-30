@@ -12,9 +12,11 @@ import {
 
 const Contact = () => {
   return (
-    <ContactSession id='contact'>
+    <ContactSession id="contact">
       <ContactHeading>contact me</ContactHeading>
-      <FormWraper>
+      <FormWraper data-aos="fade-up-right"
+                  data-aos-easing="ease-out"
+                  data-aos-duration="1000">
         <form action="">
           <FormSubHeading>Looking forward to hear from you</FormSubHeading>
           <FormGroup>

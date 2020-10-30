@@ -35,6 +35,7 @@ export const Link = styled(LinkScroll)`
   margin-left: 1rem;
   text-transform: uppercase;
   cursor: pointer;
+  overflow-x: visible;
 `;
 
 export const ReactLink = styled(LinkReact)`

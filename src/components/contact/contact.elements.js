@@ -7,6 +7,7 @@ export const ContactSession = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height:100vh;
 `;
 
 export const ContactHeading = styled.h2`
