@@ -6,6 +6,12 @@ export const Nav = styled.nav`
   padding: 0 5rem;
   height: 10vh;
   border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: white;
 `;
 
 export const Header = styled.header`
@@ -26,8 +32,9 @@ export const Links = styled.div`
 export const Link = styled(LinkScroll)`
   text-decoration: none;
   color: black;
-  padding-left: 1rem;
+  margin-left: 1rem;
   text-transform: uppercase;
+  cursor: pointer;
 `;
 
 export const ReactLink = styled(LinkReact)`

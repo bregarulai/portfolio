@@ -12,7 +12,7 @@ import {
 
 const Contact = () => {
   return (
-    <ContactSession>
+    <ContactSession id='contact'>
       <ContactHeading>contact me</ContactHeading>
       <FormWraper>
         <form action="">

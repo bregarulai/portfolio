@@ -16,7 +16,7 @@ const Projects = () => {
     "node.js",
   ];
   return (
-    <ProjectsSection>
+    <ProjectsSection id='projects'>
       <ProjectsTitle>projects</ProjectsTitle>
       <Project
         heading="painter website"

@@ -3,7 +3,7 @@ import { AboutSection, Description, Heading } from "./about.elements";
 
 const About = () => {
   return (
-    <AboutSection>
+    <AboutSection id='about'>
       <Heading>about me</Heading>
       <Description>
         Ever since my first Hello World program I felt in love with programming.

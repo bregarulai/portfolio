@@ -5,7 +5,6 @@ import {
   Links,
   Nav,
   Link,
-  ReactLink,
 } from "./navigation.elements.js";
 const Navigation = () => {
   return (
@@ -13,10 +12,33 @@ const Navigation = () => {
       <Header>
         <Brand>Flavio Aquino</Brand>
         <Links>
-          <Link to="home">home</Link>
-          <Link to="projects">projects</Link>
-          <Link to="about">about</Link>
-          <ReactLink to="/resume">resume</ReactLink>
+          <Link to="home"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+          >home</Link>
+          <Link to="projects"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+          >projects</Link>
+          <Link to="about"
+                spy={true}
+                activeClass="active"
+                smooth={true}
+                offset={-50}
+                duration={500}
+          >about</Link>
+          <Link to="contact"
+                spy={true}
+                activeClass="active"
+                smooth={true}
+                offset={-50}
+                duration={500}
+          >contact</Link>
         </Links>
       </Header>
     </Nav>

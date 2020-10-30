@@ -10,7 +10,7 @@ import {
 
 const Banner = () => {
   return (
-    <BackgroundImage>
+    <BackgroundImage id='home'>
       <div data-aos="slide-right">
         <Heading data-aos="zoom-in">
           Hi, I'm <Name>Flavio Aquino</Name>
