@@ -24,7 +24,7 @@ export const Heading = styled.h1`
   }
 
   @media only screen and (max-width: 580px) {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 `;
 
@@ -42,7 +42,7 @@ export const SubHeading = styled.h2`
   }
 
   @media only screen and (max-width: 580px) {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 `;
 
@@ -69,5 +69,10 @@ export const ProjectButton = styled(ScrollLink)`
   @media only screen and (max-width: 700px) {
     font-size: 1rem;
     padding: 0.5rem 1rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
   }
 `;

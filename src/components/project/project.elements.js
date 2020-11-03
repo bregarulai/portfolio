@@ -10,7 +10,8 @@ export const ProjectSection = styled.div`
   border-radius: 6px;
 
   @media only screen and (max-width: 700px) {
-    padding: 2rem;
+    padding: 1rem;
+    width: 19rem;
   }
 `;
 
@@ -30,7 +31,6 @@ export const ProjectImage = styled.img`
 `;
 
 export const ProjectText = styled.p`
-  padding: 0 0 1rem 0;
   font-size: 1.2rem;
 
   @media only screen and (max-width: 700px) {
@@ -69,7 +69,7 @@ export const Technology = styled.span`
   text-transform: uppercase;
   margin-right: 0.5rem;
   border-radius: 4px;
-
+  margin-top: 1rem;
   &:hover {
     transition: transform 0.25s ease-in-out;
     transform: translateY(-3px);
@@ -78,6 +78,7 @@ export const Technology = styled.span`
 
 export const Stack = styled.div`
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
 
   @media only screen and (max-width: 800px) {

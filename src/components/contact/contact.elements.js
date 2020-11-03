@@ -10,7 +10,7 @@ export const ContactSession = styled.section`
   height: 100vh;
 
   @media only screen and (max-width: 700px) {
-    padding: 5rem 3rem;
+    padding: 5rem 1rem;
   }
 `;
 
@@ -35,9 +35,15 @@ export const FormWraper = styled.div`
   padding: 0 5rem;
   border-radius: 8px;
 
+  form {
+    @media only screen and (max-width: 500px) {
+      padding: 1rem 0;
+    }
+  }
+
   @media only screen and (max-width: 800px) {
     width: 37rem;
-    padding: 0 3rem;
+    padding: 0 2rem;
   }
 
   @media only screen and (max-width: 700px) {
