@@ -19,7 +19,7 @@ const Contact = () => {
         data-aos-easing="ease-out"
         data-aos-duration="1000"
       >
-        <form name="contact" method="post">
+        <form name="contact" method="POST">
           <input type="hidden" name="form-name" value="contact" />
           <FormSubHeading>Looking forward to hear from you</FormSubHeading>
           <FormGroup>

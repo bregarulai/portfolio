@@ -31,6 +31,9 @@ export const Brand = styled.div`
 
 export const Links = styled.div`
   display: flex;
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
 `;
 
 export const Link = styled(LinkScroll)`
@@ -40,10 +43,6 @@ export const Link = styled(LinkScroll)`
   text-transform: uppercase;
   cursor: pointer;
   overflow-x: visible;
-
-  @media only screen and (max-width: 900px) {
-    display: none;
-  }
 `;
 
 export const ReactLink = styled(LinkReact)`

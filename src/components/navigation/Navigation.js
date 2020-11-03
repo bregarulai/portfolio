@@ -57,10 +57,10 @@ const Navigation = ({ toggleMenu }) => {
           >
             contact
           </Link>
-          <MenuIcon onClick={toggleMenu}>
-            <AiOutlineMenu />
-          </MenuIcon>
         </Links>
+        <MenuIcon onClick={toggleMenu}>
+          <AiOutlineMenu />
+        </MenuIcon>
       </Header>
     </Nav>
   );
