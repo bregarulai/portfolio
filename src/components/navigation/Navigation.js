@@ -9,7 +9,7 @@ import {
 } from "./navigation.elements.js";
 import { AiOutlineMenu } from "react-icons/ai";
 
-const Navigation = () => {
+const Navigation = ({ toggleMenu }) => {
   return (
     <Nav>
       <Header>
@@ -55,7 +55,7 @@ const Navigation = () => {
           >
             contact
           </Link>
-          <MenuIcon>
+          <MenuIcon onClick={toggleMenu}>
             <AiOutlineMenu />
           </MenuIcon>
         </Links>
