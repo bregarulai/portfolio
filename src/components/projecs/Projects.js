@@ -16,27 +16,27 @@ const Projects = () => {
     "node.js",
   ];
   return (
-    <ProjectsSection id='projects'>
+    <ProjectsSection id="projects">
       <ProjectsTitle>projects</ProjectsTitle>
       <Project
         heading="painter website"
         image={painter}
         alt="painter website"
-        description="A website I created for a local painter"
+        description="Responsive landing page built for a painter company."
         stack={painterStack}
       />
       <Project
         heading="tv show website"
         image={tvShows}
         alt="painter website"
-        description="A website I created for a local painter"
+        description="Responsive website build using external API to fetch data and displays it in a nice formated way for the user."
         stack={tvShowStack}
       />
       <Project
         heading="face recognition website"
         image={faceRecognition}
         alt="painter website"
-        description="A website I created for a local painter"
+        description="Responsive website build for using external API that uses artificial intelligence to detect face in a picture.  It has a back-end to store user's data."
         stack={faceRecognitionStack}
       />
     </ProjectsSection>

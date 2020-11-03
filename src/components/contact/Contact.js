@@ -14,24 +14,27 @@ const Contact = () => {
   return (
     <ContactSession id="contact">
       <ContactHeading>contact me</ContactHeading>
-      <FormWraper data-aos="fade-up-right"
-                  data-aos-easing="ease-out"
-                  data-aos-duration="1000">
-        <form action="">
+      <FormWraper
+        data-aos="fade-up-right"
+        data-aos-easing="ease-out"
+        data-aos-duration="1000"
+      >
+        <form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
           <FormSubHeading>Looking forward to hear from you</FormSubHeading>
           <FormGroup>
             <label htmlFor="name">Name</label>
-            <FormInput type="text" id="name" />
+            <FormInput type="text" id="name" name="name" />
           </FormGroup>
           <FormGroup>
             <label htmlFor="email">Email address</label>
-            <FormInput type="email" id="email" />
+            <FormInput type="email" id="email" name="email" />
           </FormGroup>
           <FormGroup>
             <label htmlFor="message">Message</label>
-            <FormTextArea id="message" />
+            <FormTextArea id="message" name="message" />
           </FormGroup>
-          <SubmitBtn>submit</SubmitBtn>
+          <SubmitBtn type="submit">submit</SubmitBtn>
         </form>
       </FormWraper>
     </ContactSession>

@@ -12,6 +12,10 @@ export const Nav = styled.nav`
   top: 0;
   left: 0;
   background: white;
+
+  @media only screen and (max-width: 900px) {
+    padding: 0 2rem;
+  }
 `;
 
 export const Header = styled.header`
