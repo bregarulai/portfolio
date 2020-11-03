@@ -8,9 +8,16 @@ export const ContactSession = styled.section`
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding: 2rem 2rem;
 
-  @media only screen and (max-width: 700px) {
-    padding: 5rem 1rem;
+  @media only screen and (max-width: 815px) {
+    padding: 2rem 1rem;
+    height: 200vh;
+  }
+
+  @media only screen and (max-width: 500px) {
+    padding: 2rem 1rem;
+    height: 100vh;
   }
 `;
 
@@ -35,19 +42,19 @@ export const FormWraper = styled.div`
   padding: 0 5rem;
   border-radius: 8px;
 
-  form {
-    @media only screen and (max-width: 500px) {
-      padding: 1rem 0;
-    }
-  }
-
   @media only screen and (max-width: 800px) {
     width: 37rem;
-    padding: 0 2rem;
+    padding: 2rem 2rem;
   }
 
   @media only screen and (max-width: 700px) {
     width: 100%;
+  }
+  form {
+    padding: 2rem 0;
+    @media only screen and (max-width: 500px) {
+      padding: 1rem 0;
+    }
   }
 `;
 
