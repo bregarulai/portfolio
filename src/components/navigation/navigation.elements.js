@@ -36,6 +36,10 @@ export const Link = styled(LinkScroll)`
   text-transform: uppercase;
   cursor: pointer;
   overflow-x: visible;
+
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
 `;
 
 export const ReactLink = styled(LinkReact)`
@@ -43,4 +47,15 @@ export const ReactLink = styled(LinkReact)`
   color: black;
   padding-left: 1rem;
   text-transform: uppercase;
+`;
+
+export const MenuIcon = styled.div`
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  display: none;
+  cursor: pointer;
+
+  @media only screen and (max-width: 900px) {
+    display: block;
+  }
 `;
