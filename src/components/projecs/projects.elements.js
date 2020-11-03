@@ -12,6 +12,15 @@ export const ProjectsSection = styled.section`
   background-position: center center;
   justify-items: center;
   padding: 5rem 5rem 8rem 5rem;
+
+  @media only screen and (max-width: 700px) {
+    padding: 5rem 3rem 8rem 3rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+    padding: 5rem 2rem 8rem 2rem;
+  }
 `;
 
 export const ProjectsTitle = styled.h2`
@@ -21,4 +30,8 @@ export const ProjectsTitle = styled.h2`
   padding: 1rem;
   text-transform: capitalize;
   color: white;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 1.5rem;
+  }
 `;

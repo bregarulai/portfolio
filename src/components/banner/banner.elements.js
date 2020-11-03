@@ -1,10 +1,8 @@
 import styled from "styled-components/macro";
 import image from "./bg.jpg";
-import {
-  Link as ScrollLink
-} from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
-export const BackgroundImage = styled.section `
+export const BackgroundImage = styled.section`
   height: 90vh;
   background-image: url(${image});
   background-attachment: fixed;
@@ -16,24 +14,39 @@ export const BackgroundImage = styled.section `
   align-items: center;
 `;
 
-export const Heading = styled.h1 `
+export const Heading = styled.h1`
   font-size: 2.5rem;
   color: white;
   text-transform: capitalize;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 2.3rem;
+  }
+
+  @media only screen and (max-width: 580px) {
+    font-size: 2rem;
+  }
 `;
 
-export const Name = styled.span `
+export const Name = styled.span`
   color: #1de9b6;
-`
+`;
 
-export const SubHeading = styled.h2 `
+export const SubHeading = styled.h2`
   font-size: 2rem;
   color: #757575;
   text-transform: capitalize;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: 580px) {
+    font-size: 1.3rem;
+  }
 `;
 
-export const ProjectButton = styled(ScrollLink)
-`
+export const ProjectButton = styled(ScrollLink)`
   text-decoration: none;
   color: #1de9b6;
   background: transparent;
@@ -50,6 +63,11 @@ export const ProjectButton = styled(ScrollLink)
     transition: all 0.5s ease-in-out;
     background: #1de9b6;
     border: none;
-    color: white
+    color: white;
+  }
+
+  @media only screen and (max-width: 700px) {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
   }
 `;

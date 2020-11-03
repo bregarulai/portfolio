@@ -6,7 +6,7 @@ export const MenuWrapper = styled.aside`
   background-color: white;
   position: fixed;
   width: 100%;
-  ${({ showMenu }) => (showMenu ? `top:-100vh;` : `top:0vh;`)}
+  ${({ showMenu }) => (showMenu ? `top:0vh;` : `top:-100vh;`)}
   transition: top .3s ease-in-out;
   z-index: 99;
 `;

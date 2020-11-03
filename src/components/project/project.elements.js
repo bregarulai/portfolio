@@ -8,6 +8,10 @@ export const ProjectSection = styled.div`
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
   background: white;
   border-radius: 6px;
+
+  @media only screen and (max-width: 700px) {
+    padding: 2rem;
+  }
 `;
 
 export const ProjectHeading = styled.h3`
@@ -28,6 +32,10 @@ export const ProjectImage = styled.img`
 export const ProjectText = styled.p`
   padding: 0 0 1rem 0;
   font-size: 1.2rem;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 1.1rem;
+  }
 `;
 
 export const ProjectLinks = styled.div`
@@ -48,6 +56,10 @@ export const ProjectLink = styled.a`
     transition: opacity 0.25s ease-in-out;
     opacity: 0.9;
   }
+
+  @media only screen and (max-width: 800px) {
+    font-size: 0.8rem;
+  }
 `;
 
 export const Technology = styled.span`
@@ -67,4 +79,8 @@ export const Technology = styled.span`
 export const Stack = styled.div`
   display: flex;
   margin-bottom: 1rem;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 0.8rem;
+  }
 `;

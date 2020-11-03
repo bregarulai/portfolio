@@ -7,7 +7,11 @@ export const ContactSession = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height:100vh;
+  height: 100vh;
+
+  @media only screen and (max-width: 700px) {
+    padding: 5rem 3rem;
+  }
 `;
 
 export const ContactHeading = styled.h2`
@@ -15,6 +19,10 @@ export const ContactHeading = styled.h2`
   text-transform: capitalize;
   color: white;
   margin-bottom: 1rem;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const FormWraper = styled.div`
@@ -26,6 +34,15 @@ export const FormWraper = styled.div`
   justify-content: space-around;
   padding: 0 5rem;
   border-radius: 8px;
+
+  @media only screen and (max-width: 800px) {
+    width: 37rem;
+    padding: 0 3rem;
+  }
+
+  @media only screen and (max-width: 700px) {
+    width: 100%;
+  }
 `;
 
 export const FormSubHeading = styled.h5`
@@ -39,6 +56,10 @@ export const FormGroup = styled.div`
   width: 100%;
   font-size: 1.2rem;
   padding: 0.5rem 0;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 1rem;
+  }
 `;
 
 export const FormInput = styled.input`
@@ -46,6 +67,10 @@ export const FormInput = styled.input`
   font-size: 1.2rem;
   height: 2.5rem;
   padding: 0 1rem;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 1rem;
+  }
 `;
 
 export const FormTextArea = styled.textarea`
@@ -53,6 +78,10 @@ export const FormTextArea = styled.textarea`
   font-size: 1.3rem;
   height: 8rem;
   padding: 1rem 1rem;
+
+  @media only screen and (max-width: 800px) {
+    font-size: 1rem;
+  }
 `;
 
 export const SubmitBtn = styled.button`
@@ -64,4 +93,15 @@ export const SubmitBtn = styled.button`
   font-size: 1.2rem;
   border-radius: 5px;
   margin-top: 0.5rem;
+  transition: opacity, scale 0.2s ease-in-out;
+
+  &:hover {
+    transition: opacity, scale 0.2s ease-in-out;
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+
+  @media only screen and (max-width: 800px) {
+    font-size: 1rem;
+  }
 `;

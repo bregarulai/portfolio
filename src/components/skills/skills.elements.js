@@ -1,7 +1,11 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 export const SkillsSection = styled.section`
   padding: 5rem 5rem;
+
+  @media only screen and (max-width: 720px) {
+    padding: 5rem 3rem;
+  }
 `;
 
 export const SkillsHeading = styled.h2`
@@ -10,6 +14,10 @@ export const SkillsHeading = styled.h2`
   color: #424242;
   margin-bottom: 2rem;
   text-align: center;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const SkillList = styled.div`
@@ -44,4 +52,8 @@ export const SkillTitle = styled.p`
   font-size: 1.2rem;
   margin-top: -2rem;
   text-align: center;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 1.1rem;
+  }
 `;
