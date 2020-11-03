@@ -13,7 +13,9 @@ const Navigation = ({ toggleMenu }) => {
   return (
     <Nav>
       <Header>
-        <Brand>Flavio Aquino</Brand>
+        <Brand>
+          <Link to="home">Flavio Aquino</Link>
+        </Brand>
         <Links>
           <Link
             to="home"
