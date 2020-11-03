@@ -10,7 +10,15 @@ import {
   Stack,
 } from "./project.elements";
 
-const Project = ({ heading, image, alt, description, stack }) => {
+const Project = ({
+  heading,
+  image,
+  alt,
+  description,
+  stack,
+  githubUrl,
+  liveUrl,
+}) => {
   return (
     <ProjectSection
       data-aos="flip-left"
@@ -26,8 +34,8 @@ const Project = ({ heading, image, alt, description, stack }) => {
         })}
       </Stack>
       <ProjectLinks>
-        <ProjectLink href="#">github</ProjectLink>
-        <ProjectLink href="#">live</ProjectLink>
+        <ProjectLink href={githubUrl || "#"}>github</ProjectLink>
+        <ProjectLink href={liveUrl || "#"}>live</ProjectLink>
       </ProjectLinks>
     </ProjectSection>
   );

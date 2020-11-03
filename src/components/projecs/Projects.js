@@ -31,6 +31,8 @@ const Projects = () => {
         alt="painter website"
         description="Responsive website build using external API to fetch data and displays it in a nice formated way for the user."
         stack={tvShowStack}
+        githubUrl="https://github.com/bregarulai/samira-tv-show"
+        liveUrl="https://samira.bregacode.com/"
       />
       <Project
         heading="face recognition website"
@@ -38,6 +40,8 @@ const Projects = () => {
         alt="painter website"
         description="Responsive website build for using external API that uses artificial intelligence to detect face in a picture.  It has a back-end to store user's data."
         stack={faceRecognitionStack}
+        githubUrl="https://github.com/bregarulai/facerecognitionbrain"
+        liveUrl="http://facerecognition.bregacode.com/"
       />
     </ProjectsSection>
   );
