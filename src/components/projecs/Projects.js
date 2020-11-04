@@ -24,12 +24,14 @@ const Projects = () => {
         alt="painter website"
         description="Responsive landing page built for a painter company."
         stack={painterStack}
+        githubUrl="https://github.com/bregarulai/painter-website"
+        liveUrl="http://painter.bregacode.com/"
       />
       <Project
         heading="tv show website"
         image={tvShows}
         alt="painter website"
-        description="Responsive website build using external API to fetch data and displays it in a nice formated way for the user."
+        description="Responsive website built using external API to fetch data and displays it in a nice formated way for the user."
         stack={tvShowStack}
         githubUrl="https://github.com/bregarulai/samira-tv-show"
         liveUrl="https://samira.bregacode.com/"
@@ -38,7 +40,7 @@ const Projects = () => {
         heading="face recognition website"
         image={faceRecognition}
         alt="painter website"
-        description="Responsive website build for using external API that uses artificial intelligence to detect face in a picture.  It has a back-end to store user's data."
+        description="Responsive website built for using external API that uses artificial intelligence to detect face in a picture.  It has a back-end to store user's data."
         stack={faceRecognitionStack}
         githubUrl="https://github.com/bregarulai/facerecognitionbrain"
         liveUrl="http://facerecognition.bregacode.com/"
