@@ -4,8 +4,10 @@ import painter from "./painterSite.PNG";
 import tvShows from "./tvShows.PNG";
 import faceRecognition from "./faceRecognitionApp.PNG";
 import Project from "../project/Project";
+import barberia from "./barberia.PNG";
 
 const Projects = () => {
+  const barbershopStack = ["gatsby", "react", "styled-components", "cms"];
   const painterStack = ["html", "css"];
   const tvShowStack = ["react", "html", "css", "javascript"];
   const faceRecognitionStack = [
@@ -18,6 +20,16 @@ const Projects = () => {
   return (
     <ProjectsSection id="projects">
       <ProjectsTitle>projects</ProjectsTitle>
+      <Project
+        heading="barbershop website"
+        image={barberia}
+        alt="barbershop website"
+        description="Responsive website built for a barbershop using gatsby."
+        stack={barbershopStack}
+        githubUrl="https://github.com/bregarulai/fraganciaBarberia"
+        liveUrl="https://www.josdekbarbershop.com/"
+      />
+
       <Project
         heading="painter website"
         image={painter}
