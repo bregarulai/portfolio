@@ -7,6 +7,7 @@ const SEO = () => {
     <Helmet
       title="Flavio Aquino front-end developer Tampa Fl"
       titleTemplate={`%s | Flavio Aquino front-end developer Tampa Fl`}
+      link={[{ rel: "canonical", href: "https://www.flavioaquino.com/" }]}
     >
       <meta
         name="description"
